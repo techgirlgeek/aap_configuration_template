@@ -1,6 +1,6 @@
 ---
-aap_configuration_async_retries: 120
-aap_configuration_async_delay: 10
+aap_configuration_async_retries: 60
+aap_configuration_async_delay: 5
 hub_collection_remotes:
   - name: rh-certified
     token: "{{ console_token }}"
@@ -24,6 +24,7 @@ hub_collection_repositories:
     wait: false
   - name: validated
     remote: validated
+    wait: false
   - name: community
     remote: community
     wait: false
