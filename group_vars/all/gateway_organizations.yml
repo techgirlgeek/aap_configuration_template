@@ -6,6 +6,8 @@ aap_organizations_all:
       - hub_certified
       - hub_validated
       - hub_community
+  - name: karyn_org
+    description: Karyn Test organization
   # default_environment: supported
 
   # - name: Default
