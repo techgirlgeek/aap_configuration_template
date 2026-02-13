@@ -1,17 +1,17 @@
 ---
-controller_execution_environments_all:
-  - name: supported
-    image: "{{ aap_hostname }}/ee-supported-rhel9"
-    pull: always
-    credential: cr_ah
+controller_execution_environments_all: []
+  # - name: supported
+  #   image: "{{ aap_hostname }}/ee-supported-rhel9"
+  #   pull: always
+  #   credential: cr_ah
 
-  - name: minimal
-    image: "{{ aap_hostname }}/ee-minimal-rhel9"
-    pull: always
-    credential: cr_ah
+  # - name: minimal
+  #   image: "{{ aap_hostname }}/ee-minimal-rhel9"
+  #   pull: always
+  #   credential: cr_ah
 
-  - name: old_29_ee
-    image: "{{ aap_hostname }}/ee-29-rhel9"
-    pull: always
-    credential: cr_ah
+  # - name: old_29_ee
+  #   image: "{{ aap_hostname }}/ee-29-rhel9"
+  #   pull: always
+  #   credential: cr_ah
 ...
