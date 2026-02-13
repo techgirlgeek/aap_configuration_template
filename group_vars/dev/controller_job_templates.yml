@@ -3,7 +3,7 @@ controller_templates_dev:
   - name: controller_config_dev
     project: config_as_code_dev
     job_type: run
-    playbook: playbooks/controller_config.yml
+    playbook: playbooks/aap_config.yml
     inventory: config_as_code_dev
     execution_environment: supported
     concurrent_jobs_enabled: false

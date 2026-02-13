@@ -9,6 +9,8 @@ all:
     automationcontroller:
       hosts:
         HERE: # FQDN of Automation Controller host(s)
+        # Example
+        # aap.automationcontroller.com:
 
     automationhub:
       hosts:

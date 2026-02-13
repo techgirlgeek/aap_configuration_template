@@ -1,4 +1,6 @@
 ---
+# If running on an OCP installed AAP
+# Comment out these EEs as they are supplied by OCP
 controller_execution_environments_all:
   - name: supported
     image: "{{ aap_hostname }}/ee-supported-rhel8"
