@@ -5,7 +5,7 @@ controller_templates_dev:
     job_type: run
     playbook: playbooks/controller_config.yml
     inventory: config_as_code_dev
-    execution_environment: supported
+    execution_environment: Default execution environment
     concurrent_jobs_enabled: false
     ask_variables_on_launch: true
     verbosity: 0
