@@ -8,7 +8,7 @@ all:
         connection: local
     automationcontroller:
       hosts:
-        https://aap-aap.apps.cluster-k6vwn-1.dynamic.redhatworkshops.io: # FQDN of Automation Controller host(s)
+        aap-aap.apps.cluster-k6vwn-1.dynamic.redhatworkshops.io: # FQDN of Automation Controller host(s)
 
     # automationhub:
     #   hosts:
@@ -24,7 +24,7 @@ all:
 
     automationgateway:
       hosts:
-        https://aap-aap.apps.cluster-k6vwn-1.dynamic.redhatworkshops.io: # FQDN of automation gateway if you have one. Otherwise, can be commented out if not in use.
+        aap-aap.apps.cluster-k6vwn-1.dynamic.redhatworkshops.io: # FQDN of automation gateway if you have one. Otherwise, can be commented out if not in use.
 
     # # Only needed if installing AAP with automation, can be removed if you are not. See Install docs if unsure what server should be the database host.
     # database:
