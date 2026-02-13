@@ -5,7 +5,7 @@ eda_rulebook_activations:
     description: Hook to listen for changes in gitea
     project: eda
     rulebook: gitea_casc.yml
-    decision_environment: supported
+    decision_environment: Default Decision Environment
     # extra_vars:
     #   provider: github-local
     #   repo_url: https://github.com/ansible/ansible-rulebook.git
