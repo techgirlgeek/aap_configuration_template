@@ -5,7 +5,7 @@ controller_templates_all:
     job_type: run
     playbook: playbooks/aap_config.yml
     inventory: config_as_code
-    execution_environment: supported
+    execution_environment: Default execution environment
     concurrent_jobs_enabled: false
     ask_variables_on_launch: true
     limit: "{{ env }}"
@@ -23,7 +23,7 @@ controller_templates_all:
     job_type: run
     playbook: playbooks/build_ee.yml
     inventory: config_as_code
-    execution_environment: supported
+    execution_environment: Default execution environment
     concurrent_jobs_enabled: false
     verbosity: 0
     credentials:
@@ -37,7 +37,7 @@ controller_templates_all:
     job_type: run
     playbook: playbooks/custom_collection.yml
     inventory: config_as_code
-    execution_environment: supported
+    execution_environment: Default execution environment
     concurrent_jobs_enabled: false
     limit: "{{ env }}"
     verbosity: 0
@@ -50,7 +50,7 @@ controller_templates_all:
     job_type: run
     playbook: playbooks/console_token_refresh.yml
     inventory: config_as_code
-    execution_environment: minimal
+    execution_environment: Default execution environment
     concurrent_jobs_enabled: false
     limit: "{{ env }}"
     verbosity: 0
@@ -62,7 +62,7 @@ controller_templates_all:
     job_type: run
     playbook: playbooks/sync_collections.yml
     inventory: config_as_code
-    execution_environment: minimal
+    execution_environment: Default execution environment
     concurrent_jobs_enabled: false
     limit: "{{ env }}"
     verbosity: 0
